@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".Zone2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Zone1Activity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
