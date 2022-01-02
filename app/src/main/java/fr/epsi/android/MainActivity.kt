@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             val newIntent = Intent(application,Zone2Activity::class.java)
             startActivity(newIntent)
         })
+        setTitle("EPSI")
 
     }
 }
