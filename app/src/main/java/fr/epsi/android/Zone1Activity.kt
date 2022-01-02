@@ -8,6 +8,9 @@ import android.widget.Button
 
 class Zone1Activity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setHeaderTitle("Infos")
+        showBack()
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_zone1)
 

@@ -9,7 +9,7 @@ import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException
 
-class Zone2Activity : BaseActivity() {
+class ProductActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_zone2)
