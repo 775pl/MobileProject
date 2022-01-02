@@ -34,6 +34,7 @@ class Student1Activity : BaseActivity(){
         setContentView(R.layout.activity_student1)
 
         setHeaderTitle("Students")
+        showBack()
         val students = arrayListOf<Student>()
         val jsStudents = JSONObject(data)
         val jsArrayStudents= jsStudents.getJSONArray("items")

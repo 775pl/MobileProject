@@ -4,19 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:background="#fbccd1 "
+        android:background="@color/teal_200"
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
         <TextView
-            android:textSize="30sp"
+            android:textSize="30dp"
             android:textColor="@color/white"
             android:layout_centerInParent="true"
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/header" />
+            android:text="TextView" />
 
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/imageViewBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_back"
+            android:visibility="gone"
+            />
 
     </RelativeLayout>
 </LinearLayout>
