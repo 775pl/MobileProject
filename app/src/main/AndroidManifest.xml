@@ -11,6 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".Student3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Student2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_student2"
+            android:theme="@style/Theme.Android.NoActionBar" />
+        <activity
+            android:name=".Student1Activity"
+            android:exported="false" />
+        <activity
             android:name=".Zone2Activity"
             android:exported="false" />
         <activity

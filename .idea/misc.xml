@@ -5,8 +5,12 @@
       <map>
         <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_splash.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_student1.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_student2.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_student3.xml" value="0.14266304347826086" />
         <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_zone1.xml" value="0.14375" />
         <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_zone2.xml" value="0.14375" />
+        <entry key="..\:/Users/selma/AndroidStudioProjects/MobileProject/app/src/main/res/layout/layout_header.xml" value="0.14375" />
       </map>
     </option>
   </component>
