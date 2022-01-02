@@ -15,6 +15,7 @@ class StudentAdapter(val students: ArrayList<Student>):RecyclerView.Adapter<View
         val textViewName = view.findViewById<TextView>(R.id.textViewName)
         val textViewEmail = view.findViewById<TextView>(R.id.textViewEmail)
         val imageViewStudent = view.findViewById<ImageView>(R.id.imageViewStudent)
+        val textViewSurname = view.findViewById<TextView>(R.id.textViewSurname)
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -27,6 +28,7 @@ class StudentAdapter(val students: ArrayList<Student>):RecyclerView.Adapter<View
         val student = students.get(position)
         holder.textViewName.text=student.name
         holder.textViewEmail.text=student.email
+        holder.textViewSurname.text=student.surname
         Picasso.get().load(student.imgUrl).into(holder.imageViewStudent)
     }
 
